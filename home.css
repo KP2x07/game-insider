@@ -1,0 +1,38 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background: #4f5b66;
+	padding: 0;
+    margin: 0;
+}
+
+#main {
+    margin-top: 30px;
+}
+
+.title {
+    display: inline;
+    color: #fff;
+    margin-left: 20%;
+}
+
+.description {
+    display: block;
+    color: #fff;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.title-ext {
+    transition-duration: 0.25s;
+    color: #fff;
+    opacity: 50%;
+    text-decoration: none;
+}
+
+.title-ext:hover {
+    transition-duration: 0.25s;
+    opacity: 100%;
+}
